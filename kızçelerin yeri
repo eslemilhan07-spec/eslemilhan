@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Alanım ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigasyon -->
+    <header>
+        <h1 class="logo">✨ Benim Dünyam</h1>
+        <nav>
+            <a href="#about">Hakkımda</a>
+            <a href="#gallery">Galeri</a>
+            <a href="#notes">Günlük / Notlar</a>
+        </nav>
+    </header>
+
+    <!-- Hero Bölümü -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hoş Geldin! 🌸</h2>
+            <p>Hayallerin, anıların ve tarzın buluştuğu yer...</p>
+            <button id="colorBtn">Tema Rengini Değiştir 🎨</button>
+        </div>
+    </section>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="about" class="content-section">
+        <h3>Hakkımda 🌷</h3>
+        <p>Buraya kendini, ilgi alanlarını, sevdiğin dizileri, kitapları veya hobilerini yazabilirsin. Burası tamamen senin alanın!</p>
+    </section>
+
+    <!-- Galeri Bölümü -->
+    <section id="gallery" class="content-section">
+        <h3>Favori Anılarım 📸</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item">Görsel 1</div>
+            <div class="gallery-item">Görsel 2</div>
+            <div class="gallery-item">Görsel 3</div>
+        </div>
+    </section>
+
+    <!-- Notlar / Etkileşimli Alan -->
+    <section id="notes" class="content-section">
+        <h3>Günün Notu ✍️</h3>
+        <div class="note-box">
+            <input type="text" id="noteInput" placeholder="Bugün aklından ne geçiyor?">
+            <button id="addNoteBtn">Not Ekle</button>
+            <ul id="noteList"></ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Sevgiyle tasarlandı 💖 | GitHub Pages ile yayınlandı.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
